@@ -1,0 +1,18 @@
+.main{
+    /* background-color: aquamarine; */
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 10px rgb(73, 73, 73);
+    box-shadow: 0 0 10px rgb(73, 73, 73);
+}
+.textarea{
+    display: block;
+    width: 85%;
+    height: 70px;
+    margin: 20px auto;
+    padding: 15px;
+}
+textarea::placeholder {
+    font-size: 20px;
+  }
