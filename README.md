@@ -1,1 +1,1 @@
-# hacker_news
+# A dummy mini project like hacker_news
