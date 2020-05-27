@@ -39,6 +39,24 @@ class Huser{
 			return $data['username'];
 		}
     }
+
+    public static function add_user_post($content){
+        global $database;
+        $content = $database->escape_string($content);
+        $my_username = self::get_my_username();
+        $upvote = 0;
+        $downvote = 0;
+        $sql = "INSERT INTO `users`(`username`, `content`, `upvote`, `downvote`) VALUES ('{$my_username}','{$content}','{$upvote}','{$downvote}')";
+        $result = $database->query($sql);
+    }
+
+    public static function get_user_posts(){
+        global $database;
+        $sql = "SELECT * FROM `users`";
+        $result = $database->query($sql);
+        if (mysqli_num_rows($result) >= 1) return $result;
+        return false;
+    }
 }
 
 $user = new Huser();

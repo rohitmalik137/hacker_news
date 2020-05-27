@@ -1,7 +1,8 @@
 .main{
-    /* background-color: aquamarine; */
+    background-color: aquamarine !important;
     width: 65%;
-    margin: auto;
+    margin: 50px auto;
+    height: 200px;
     padding: 10px;
     -webkit-box-shadow: 0 0 10px rgb(73, 73, 73);
     box-shadow: 0 0 10px rgb(73, 73, 73);
@@ -12,7 +13,21 @@
     height: 70px;
     margin: 20px auto;
     padding: 15px;
+    font-size:20px;
+    border-radius: 10px;
 }
 textarea::placeholder {
     font-size: 20px;
-  }
+}
+.post{
+    float: right;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5%;
+    background-color: rgb(255, 62, 62);
+}
+.posts_list{
+    width: 55.25%;
+    margin: auto;
+}
