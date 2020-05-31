@@ -41,11 +41,11 @@
 
                         <div>
                             <div>
-                                <i class="fa fa-thumbs-up" style="font-size:20px;color:green"></i>
+                                <i class="fa fa-thumbs-up" style="font-size:20px;color:green; margin-right:10px;"></i>
                                 <?php echo $rows['upvote']." upvotes"; ?>
                             </div>
                             <div>
-                                <i class="fa fa-thumbs-down" style="font-size:20px;color:red"></i>
+                                <i class="fa fa-thumbs-down" style="font-size:20px;color:red; margin-right:10px;"></i>
                                 <?php echo $rows['downvote']." downvotes"; ?>
                             </div>
                         </div>
